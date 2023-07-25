@@ -1,0 +1,47 @@
+.header{
+    padding: 43px 0 44px;
+    border-bottom: 1px solid #EAEAEA;
+    &__row{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__left{
+        display: flex;
+        column-gap: 16px;
+        align-items: center;
+        &-text{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    &__logo{
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+    }
+    &__title{
+        @include text(700, 20px, normal, $black);
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    &__subtitle{
+        @include text(400, 14px, normal, $grey);
+
+    }
+    &__right{
+        display: flex;
+        column-gap: 30px;
+        align-items: center;
+    }
+    &__link{
+        display: flex;
+        column-gap: 10px;
+        align-items: center;
+        &-text{
+        @include text(600, 14px, normal, #5C5C5C);
+
+        }
+    }
+
+}
