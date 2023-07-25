@@ -1,0 +1,130 @@
+{
+    "shoes": [
+        {
+            "id": 1,
+            "title": "Nike Blazer Mid Suede",
+            "gender": "man",
+            "brand": "Nike",
+            "price": 6000,
+            "images": "",
+            "category": "street"
+        },
+        {
+            "id": 2,
+            "title": "Nike Air Max 270",
+            "gender": "man",
+            "brand": "Nike",
+            "price": 7300,
+            "images": "",
+            "category": "run"
+        },
+        {
+            "id": 3,
+            "title": "Nike Blazer Mid Suede",
+            "gender": "man",
+            "brand": "Nike",
+            "price": 6500,
+            "images": "",
+            "category": "street"
+        },
+        {
+            "id": 4,
+            "title": "Puma X Aka Boku Future Rider",
+            "gender": "man",
+            "brand": "Puma",
+            "price": 8999,
+            "images": "",
+            "category": "run"
+        },
+        {
+            "id": 5,
+            "title": "Under Armour Curry 8",
+            "gender": "man",
+            "brand": "Under Armour",
+            "price": 15199,
+            "images": "",
+            "category": "train"
+        },
+        {
+            "id": 6,
+            "title": "Nike Kyrie 7",
+            "gender": "man",
+            "brand": "Nike",
+            "price": 11299,
+            "images": "",
+            "category": "street"
+        },
+        {
+            "id": 7,
+            "title": "Jordan Air Jordan 11",
+            "gender": "man",
+            "brand": "Air Jordan",
+            "price": 11299,
+            "images": "",
+            "category": "train"
+        },
+        {
+            "id": 8,
+            "title": "Nike LeBron XVIII",
+            "gender": "man",
+            "brand": "Nike",
+            "price": 16499,
+            "images": "",
+            "category": "train"
+        },
+        {
+            "id": 9,
+            "title": "Nike Lebron XVIII Low",
+            "gender": "man",
+            "brand": "Nike",
+            "price": 16499,
+            "images": "",
+            "category": "run"
+        },
+        {
+            "id": 9,
+            "title": "Nike Lebron XVIII Low",
+            "gender": "man",
+            "brand": "Nike",
+            "price": 16499,
+            "images": "",
+            "category": "run"
+        },
+        {
+            "id": 10,
+            "title": "Nike Blazer Mid Suede",
+            "gender": "man",
+            "brand": "Nike",
+            "price": 6000,
+            "images": "",
+            "category": "street"
+        },
+        {
+            "id": 11,
+            "title": "Nike Air Max 270",
+            "gender": "man",
+            "brand": "Nike",
+            "price": 7300,
+            "images": "",
+            "category": "run"
+        },
+        {
+            "id": 12,
+            "title": "Nike Blazer Mid Suede",
+            "gender": "man",
+            "brand": "Nike",
+            "price": 6500,
+            "images": "",
+            "category": "street"
+        },
+        {
+            "id": 13,
+            "title": "Puma X Aka Boku Future Rider",
+            "gender": "man",
+            "brand": "Puma",
+            "price": 8999,
+            "images": "",
+            "category": "run"
+        }
+    ]
+}
