@@ -1,11 +1,82 @@
 .main-swiper{
+    padding: 45px 0 39px;
     &__row{
         display: flex;
         align-items: center;
     }
+    &__left{
+        background: #f3eee8;
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        padding: 0 0 78px 0;
+        &-log{
+            width: 99px;
+            height: 40px;
+            margin-top: 16px;
+            margin-left: 20px;
+            margin-bottom: 32px;
+        }
+    }
+    &__right{
+        width: 70%;
+        background: #f3eee8;
+        &-img{
+            width: 100%;
+        }
+    }
+    &__title{
+        @include text(700, 38px, normal, $black);
+        margin-bottom: 11px;
+        margin-left: 61px;
+        span{
+        @include text(700, 38px, normal, #8BB43C);
+
+
+        }
+    }
+    &__btn{
+
+        display: inline-block;
+        width: 177px;
+        height: 47px;
+        border-radius: 110px;
+        background: #A5D364;
+        border: 1px solid #A5D364;
+        margin-left: 61px;
+
+    }
+    &__empty-1{
+        background: #8BB43C;
+        width: 100%;
+        height: 100%;
+    }
+    &__empty-2{
+        background: #68882c;
+        width: 100%;
+        height: 100%;
+    }
+
 }
 .swiper {
-    width: 600px;
+    width: 960px;
     height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .swiper-button-next:after{
+    content: url('../images/next-after.png');
+    position: absolute;
+    top: 0;
+    right: -26px;
+  }
+
+  .swiper-button-prev::after{
+    content: url('../images/next-after.png');
+    transform: rotate(-180deg);
+    position: absolute;
+    top: -13px;
+    left: -26px;
   }
   

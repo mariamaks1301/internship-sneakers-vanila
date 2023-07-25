@@ -28,8 +28,14 @@ $black: #000;
     color: $col;
 }
 
+.btn{
+    @include text(700, 16px, normal, #fff);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
 
 
 
 @import "header";
-@import "swipe";
+@import "swiper";
